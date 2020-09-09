@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF6BEC8C25090EB100F81ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BEC8B25090EB100F81ADD /* AppDelegate.swift */; };
+		BF6BEC8E25090EB100F81ADD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BEC8D25090EB100F81ADD /* SceneDelegate.swift */; };
+		BF6BEC9025090EB100F81ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BEC8F25090EB100F81ADD /* ViewController.swift */; };
+		BF6BEC9325090EB100F81ADD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6BEC9125090EB100F81ADD /* Main.storyboard */; };
+		BF6BEC9525090EB500F81ADD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6BEC9425090EB500F81ADD /* Assets.xcassets */; };
+		BF6BEC9825090EB500F81ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6BEC9625090EB500F81ADD /* LaunchScreen.storyboard */; };
+		BF6BECA325090EB500F81ADD /* ABC_Vehicle_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BECA225090EB500F81ADD /* ABC_Vehicle_ServiceTests.swift */; };
+		BF6BECAE25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BECAD25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF6BEC9F25090EB500F81ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF6BEC8025090EB100F81ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF6BEC8725090EB100F81ADD;
+			remoteInfo = "ABC Vehicle Service";
+		};
+		BF6BECAA25090EB500F81ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF6BEC8025090EB100F81ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF6BEC8725090EB100F81ADD;
+			remoteInfo = "ABC Vehicle Service";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF6BEC8825090EB100F81ADD /* ABC Vehicle Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABC Vehicle Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6BEC8B25090EB100F81ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF6BEC8D25090EB100F81ADD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF6BEC8F25090EB100F81ADD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF6BEC9225090EB100F81ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF6BEC9425090EB500F81ADD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF6BEC9725090EB500F81ADD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF6BEC9925090EB500F81ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6BEC9E25090EB500F81ADD /* ABC Vehicle ServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABC Vehicle ServiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6BECA225090EB500F81ADD /* ABC_Vehicle_ServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC_Vehicle_ServiceTests.swift; sourceTree = "<group>"; };
+		BF6BECA425090EB500F81ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6BECA925090EB500F81ADD /* ABC Vehicle ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABC Vehicle ServiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF6BECAD25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC_Vehicle_ServiceUITests.swift; sourceTree = "<group>"; };
+		BF6BECAF25090EB500F81ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF6BEC8525090EB100F81ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6BEC9B25090EB500F81ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6BECA625090EB500F81ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF6BEC7F25090EB100F81ADD = {
+			isa = PBXGroup;
+			children = (
+				BF6BEC8A25090EB100F81ADD /* ABC Vehicle Service */,
+				BF6BECA125090EB500F81ADD /* ABC Vehicle ServiceTests */,
+				BF6BECAC25090EB500F81ADD /* ABC Vehicle ServiceUITests */,
+				BF6BEC8925090EB100F81ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF6BEC8925090EB100F81ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF6BEC8825090EB100F81ADD /* ABC Vehicle Service.app */,
+				BF6BEC9E25090EB500F81ADD /* ABC Vehicle ServiceTests.xctest */,
+				BF6BECA925090EB500F81ADD /* ABC Vehicle ServiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF6BEC8A25090EB100F81ADD /* ABC Vehicle Service */ = {
+			isa = PBXGroup;
+			children = (
+				BF6BEC8B25090EB100F81ADD /* AppDelegate.swift */,
+				BF6BEC8D25090EB100F81ADD /* SceneDelegate.swift */,
+				BF6BEC8F25090EB100F81ADD /* ViewController.swift */,
+				BF6BEC9125090EB100F81ADD /* Main.storyboard */,
+				BF6BEC9425090EB500F81ADD /* Assets.xcassets */,
+				BF6BEC9625090EB500F81ADD /* LaunchScreen.storyboard */,
+				BF6BEC9925090EB500F81ADD /* Info.plist */,
+			);
+			path = "ABC Vehicle Service";
+			sourceTree = "<group>";
+		};
+		BF6BECA125090EB500F81ADD /* ABC Vehicle ServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF6BECA225090EB500F81ADD /* ABC_Vehicle_ServiceTests.swift */,
+				BF6BECA425090EB500F81ADD /* Info.plist */,
+			);
+			path = "ABC Vehicle ServiceTests";
+			sourceTree = "<group>";
+		};
+		BF6BECAC25090EB500F81ADD /* ABC Vehicle ServiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF6BECAD25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift */,
+				BF6BECAF25090EB500F81ADD /* Info.plist */,
+			);
+			path = "ABC Vehicle ServiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF6BEC8725090EB100F81ADD /* ABC Vehicle Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6BECB225090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle Service" */;
+			buildPhases = (
+				BF6BEC8425090EB100F81ADD /* Sources */,
+				BF6BEC8525090EB100F81ADD /* Frameworks */,
+				BF6BEC8625090EB100F81ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ABC Vehicle Service";
+			productName = "ABC Vehicle Service";
+			productReference = BF6BEC8825090EB100F81ADD /* ABC Vehicle Service.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF6BEC9D25090EB500F81ADD /* ABC Vehicle ServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6BECB525090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle ServiceTests" */;
+			buildPhases = (
+				BF6BEC9A25090EB500F81ADD /* Sources */,
+				BF6BEC9B25090EB500F81ADD /* Frameworks */,
+				BF6BEC9C25090EB500F81ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6BECA025090EB500F81ADD /* PBXTargetDependency */,
+			);
+			name = "ABC Vehicle ServiceTests";
+			productName = "ABC Vehicle ServiceTests";
+			productReference = BF6BEC9E25090EB500F81ADD /* ABC Vehicle ServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF6BECA825090EB500F81ADD /* ABC Vehicle ServiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF6BECB825090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle ServiceUITests" */;
+			buildPhases = (
+				BF6BECA525090EB500F81ADD /* Sources */,
+				BF6BECA625090EB500F81ADD /* Frameworks */,
+				BF6BECA725090EB500F81ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF6BECAB25090EB500F81ADD /* PBXTargetDependency */,
+			);
+			name = "ABC Vehicle ServiceUITests";
+			productName = "ABC Vehicle ServiceUITests";
+			productReference = BF6BECA925090EB500F81ADD /* ABC Vehicle ServiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF6BEC8025090EB100F81ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Juan Jose Vitela Hernandez";
+				TargetAttributes = {
+					BF6BEC8725090EB100F81ADD = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					BF6BEC9D25090EB500F81ADD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = BF6BEC8725090EB100F81ADD;
+					};
+					BF6BECA825090EB500F81ADD = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = BF6BEC8725090EB100F81ADD;
+					};
+				};
+			};
+			buildConfigurationList = BF6BEC8325090EB100F81ADD /* Build configuration list for PBXProject "ABC Vehicle Service" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF6BEC7F25090EB100F81ADD;
+			productRefGroup = BF6BEC8925090EB100F81ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF6BEC8725090EB100F81ADD /* ABC Vehicle Service */,
+				BF6BEC9D25090EB500F81ADD /* ABC Vehicle ServiceTests */,
+				BF6BECA825090EB500F81ADD /* ABC Vehicle ServiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF6BEC8625090EB100F81ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6BEC9825090EB500F81ADD /* LaunchScreen.storyboard in Resources */,
+				BF6BEC9525090EB500F81ADD /* Assets.xcassets in Resources */,
+				BF6BEC9325090EB100F81ADD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6BEC9C25090EB500F81ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6BECA725090EB500F81ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF6BEC8425090EB100F81ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6BEC9025090EB100F81ADD /* ViewController.swift in Sources */,
+				BF6BEC8C25090EB100F81ADD /* AppDelegate.swift in Sources */,
+				BF6BEC8E25090EB100F81ADD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6BEC9A25090EB500F81ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6BECA325090EB500F81ADD /* ABC_Vehicle_ServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF6BECA525090EB500F81ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6BECAE25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF6BECA025090EB500F81ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF6BEC8725090EB100F81ADD /* ABC Vehicle Service */;
+			targetProxy = BF6BEC9F25090EB500F81ADD /* PBXContainerItemProxy */;
+		};
+		BF6BECAB25090EB500F81ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF6BEC8725090EB100F81ADD /* ABC Vehicle Service */;
+			targetProxy = BF6BECAA25090EB500F81ADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF6BEC9125090EB100F81ADD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF6BEC9225090EB100F81ADD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF6BEC9625090EB500F81ADD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF6BEC9725090EB500F81ADD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF6BECB025090EB500F81ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF6BECB125090EB500F81ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF6BECB325090EB500F81ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YTS9P24FF;
+				INFOPLIST_FILE = "ABC Vehicle Service/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vitela.Juan.Wisdom.ABC-Vehicle-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF6BECB425090EB500F81ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YTS9P24FF;
+				INFOPLIST_FILE = "ABC Vehicle Service/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vitela.Juan.Wisdom.ABC-Vehicle-Service";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF6BECB625090EB500F81ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YTS9P24FF;
+				INFOPLIST_FILE = "ABC Vehicle ServiceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vitela.Juan.Wisdom.ABC-Vehicle-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABC Vehicle Service.app/ABC Vehicle Service";
+			};
+			name = Debug;
+		};
+		BF6BECB725090EB500F81ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YTS9P24FF;
+				INFOPLIST_FILE = "ABC Vehicle ServiceTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vitela.Juan.Wisdom.ABC-Vehicle-ServiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ABC Vehicle Service.app/ABC Vehicle Service";
+			};
+			name = Release;
+		};
+		BF6BECB925090EB500F81ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YTS9P24FF;
+				INFOPLIST_FILE = "ABC Vehicle ServiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vitela.Juan.Wisdom.ABC-Vehicle-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ABC Vehicle Service";
+			};
+			name = Debug;
+		};
+		BF6BECBA25090EB500F81ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9YTS9P24FF;
+				INFOPLIST_FILE = "ABC Vehicle ServiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Vitela.Juan.Wisdom.ABC-Vehicle-ServiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ABC Vehicle Service";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF6BEC8325090EB100F81ADD /* Build configuration list for PBXProject "ABC Vehicle Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6BECB025090EB500F81ADD /* Debug */,
+				BF6BECB125090EB500F81ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6BECB225090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6BECB325090EB500F81ADD /* Debug */,
+				BF6BECB425090EB500F81ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6BECB525090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle ServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6BECB625090EB500F81ADD /* Debug */,
+				BF6BECB725090EB500F81ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF6BECB825090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle ServiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF6BECB925090EB500F81ADD /* Debug */,
+				BF6BECBA25090EB500F81ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF6BEC8025090EB100F81ADD /* Project object */;
+}

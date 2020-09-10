@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1279D69AF5E8EB3410073725 /* Pods_ABC_Vehicle_Service_ABC_Vehicle_ServiceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6FF3BC4DD64B7E515B3C7C /* Pods_ABC_Vehicle_Service_ABC_Vehicle_ServiceUITests.framework */; };
+		659C6B68662C68486C65CF93 /* Pods_ABC_Vehicle_ServiceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7A89CE348DC22066BFF43 /* Pods_ABC_Vehicle_ServiceTests.framework */; };
+		A1340557B86EF64A093C3DF4 /* Pods_ABC_Vehicle_Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A165D34B460A8ED37B42FD0 /* Pods_ABC_Vehicle_Service.framework */; };
 		BF6BEC8C25090EB100F81ADD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BEC8B25090EB100F81ADD /* AppDelegate.swift */; };
 		BF6BEC8E25090EB100F81ADD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BEC8D25090EB100F81ADD /* SceneDelegate.swift */; };
 		BF6BEC9025090EB100F81ADD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BEC8F25090EB100F81ADD /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		BF6BEC9825090EB500F81ADD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6BEC9625090EB500F81ADD /* LaunchScreen.storyboard */; };
 		BF6BECA325090EB500F81ADD /* ABC_Vehicle_ServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BECA225090EB500F81ADD /* ABC_Vehicle_ServiceTests.swift */; };
 		BF6BECAE25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6BECAD25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift */; };
+		BFAFC0022509A8300015CD7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFC0012509A8300015CD7C /* LoginViewController.swift */; };
+		BFAFC0042509AE230015CD7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFAFC0032509AE230015CD7C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A91B3F0EF031B4DB50283B3 /* Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.release.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A165D34B460A8ED37B42FD0 /* Pods_ABC_Vehicle_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Vehicle_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5349AED23474BA86B2E60661 /* Pods-ABC Vehicle Service.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Service.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service.debug.xcconfig"; sourceTree = "<group>"; };
+		55D8AD7DB960016CD6C5C4E6 /* Pods-ABC Vehicle ServiceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle ServiceTests.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle ServiceTests/Pods-ABC Vehicle ServiceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		733339D9719DA46023B3D4F8 /* Pods-ABC Vehicle ServiceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle ServiceTests.release.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle ServiceTests/Pods-ABC Vehicle ServiceTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCB7A89CE348DC22066BFF43 /* Pods_ABC_Vehicle_ServiceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Vehicle_ServiceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6BEC8825090EB100F81ADD /* ABC Vehicle Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ABC Vehicle Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6BEC8B25090EB100F81ADD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6BEC8D25090EB100F81ADD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		BF6BECA925090EB500F81ADD /* ABC Vehicle ServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ABC Vehicle ServiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6BECAD25090EB500F81ADD /* ABC_Vehicle_ServiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABC_Vehicle_ServiceUITests.swift; sourceTree = "<group>"; };
 		BF6BECAF25090EB500F81ADD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAFC0012509A8300015CD7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BFAFC0032509AE230015CD7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEB98EEC5C483C2E21920914 /* Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.debug.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E142EEA2D4B6DDA07416A6F0 /* Pods-ABC Vehicle Service.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ABC Vehicle Service.release.xcconfig"; path = "Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service.release.xcconfig"; sourceTree = "<group>"; };
+		EE6FF3BC4DD64B7E515B3C7C /* Pods_ABC_Vehicle_Service_ABC_Vehicle_ServiceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ABC_Vehicle_Service_ABC_Vehicle_ServiceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1340557B86EF64A093C3DF4 /* Pods_ABC_Vehicle_Service.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				659C6B68662C68486C65CF93 /* Pods_ABC_Vehicle_ServiceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1279D69AF5E8EB3410073725 /* Pods_ABC_Vehicle_Service_ABC_Vehicle_ServiceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3630E37F15DE49B7C866B1CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5349AED23474BA86B2E60661 /* Pods-ABC Vehicle Service.debug.xcconfig */,
+				E142EEA2D4B6DDA07416A6F0 /* Pods-ABC Vehicle Service.release.xcconfig */,
+				DEB98EEC5C483C2E21920914 /* Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.debug.xcconfig */,
+				1A91B3F0EF031B4DB50283B3 /* Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.release.xcconfig */,
+				55D8AD7DB960016CD6C5C4E6 /* Pods-ABC Vehicle ServiceTests.debug.xcconfig */,
+				733339D9719DA46023B3D4F8 /* Pods-ABC Vehicle ServiceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF6BEC7F25090EB100F81ADD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				BF6BECA125090EB500F81ADD /* ABC Vehicle ServiceTests */,
 				BF6BECAC25090EB500F81ADD /* ABC Vehicle ServiceUITests */,
 				BF6BEC8925090EB100F81ADD /* Products */,
+				3630E37F15DE49B7C866B1CF /* Pods */,
+				DD6AA79E556963EF3321988C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +134,14 @@
 			isa = PBXGroup;
 			children = (
 				BF6BEC8B25090EB100F81ADD /* AppDelegate.swift */,
+				BFAFC0032509AE230015CD7C /* GoogleService-Info.plist */,
 				BF6BEC8D25090EB100F81ADD /* SceneDelegate.swift */,
 				BF6BEC8F25090EB100F81ADD /* ViewController.swift */,
 				BF6BEC9125090EB100F81ADD /* Main.storyboard */,
 				BF6BEC9425090EB500F81ADD /* Assets.xcassets */,
 				BF6BEC9625090EB500F81ADD /* LaunchScreen.storyboard */,
 				BF6BEC9925090EB500F81ADD /* Info.plist */,
+				BFAFC0012509A8300015CD7C /* LoginViewController.swift */,
 			);
 			path = "ABC Vehicle Service";
 			sourceTree = "<group>";
@@ -128,6 +164,16 @@
 			path = "ABC Vehicle ServiceUITests";
 			sourceTree = "<group>";
 		};
+		DD6AA79E556963EF3321988C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A165D34B460A8ED37B42FD0 /* Pods_ABC_Vehicle_Service.framework */,
+				EE6FF3BC4DD64B7E515B3C7C /* Pods_ABC_Vehicle_Service_ABC_Vehicle_ServiceUITests.framework */,
+				BCB7A89CE348DC22066BFF43 /* Pods_ABC_Vehicle_ServiceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF6BECB225090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle Service" */;
 			buildPhases = (
+				F29B2A9AA6BA8F11B6C6260A /* [CP] Check Pods Manifest.lock */,
 				BF6BEC8425090EB100F81ADD /* Sources */,
 				BF6BEC8525090EB100F81ADD /* Frameworks */,
 				BF6BEC8625090EB100F81ADD /* Resources */,
+				D72D5914541EC7C13F8603C9 /* [CP] Embed Pods Frameworks */,
+				9034D3ED7038CD48139DD411 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF6BECB525090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle ServiceTests" */;
 			buildPhases = (
+				DF72571D4E2354886892D7FB /* [CP] Check Pods Manifest.lock */,
 				BF6BEC9A25090EB500F81ADD /* Sources */,
 				BF6BEC9B25090EB500F81ADD /* Frameworks */,
 				BF6BEC9C25090EB500F81ADD /* Resources */,
@@ -170,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF6BECB825090EB500F81ADD /* Build configuration list for PBXNativeTarget "ABC Vehicle ServiceUITests" */;
 			buildPhases = (
+				372BDCB4E16E9196E6F09A52 /* [CP] Check Pods Manifest.lock */,
 				BF6BECA525090EB500F81ADD /* Sources */,
 				BF6BECA625090EB500F81ADD /* Frameworks */,
 				BF6BECA725090EB500F81ADD /* Resources */,
+				2F6727873C404E3310E04831 /* [CP] Embed Pods Frameworks */,
+				4F2FD69D279CE87E03EDFECA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6BEC9825090EB500F81ADD /* LaunchScreen.storyboard in Resources */,
+				BFAFC0042509AE230015CD7C /* GoogleService-Info.plist in Resources */,
 				BF6BEC9525090EB500F81ADD /* Assets.xcassets in Resources */,
 				BF6BEC9325090EB100F81ADD /* Main.storyboard in Resources */,
 			);
@@ -254,11 +308,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F6727873C404E3310E04831 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		372BDCB4E16E9196E6F09A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F2FD69D279CE87E03EDFECA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests/Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9034D3ED7038CD48139DD411 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D72D5914541EC7C13F8603C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ABC Vehicle Service/Pods-ABC Vehicle Service-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF72571D4E2354886892D7FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC Vehicle ServiceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F29B2A9AA6BA8F11B6C6260A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ABC Vehicle Service-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF6BEC8425090EB100F81ADD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFAFC0022509A8300015CD7C /* LoginViewController.swift in Sources */,
 				BF6BEC9025090EB100F81ADD /* ViewController.swift in Sources */,
 				BF6BEC8C25090EB100F81ADD /* AppDelegate.swift in Sources */,
 				BF6BEC8E25090EB100F81ADD /* SceneDelegate.swift in Sources */,
@@ -432,6 +624,7 @@
 		};
 		BF6BECB325090EB500F81ADD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5349AED23474BA86B2E60661 /* Pods-ABC Vehicle Service.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +643,7 @@
 		};
 		BF6BECB425090EB500F81ADD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E142EEA2D4B6DDA07416A6F0 /* Pods-ABC Vehicle Service.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +662,7 @@
 		};
 		BF6BECB625090EB500F81ADD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D8AD7DB960016CD6C5C4E6 /* Pods-ABC Vehicle ServiceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +685,7 @@
 		};
 		BF6BECB725090EB500F81ADD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 733339D9719DA46023B3D4F8 /* Pods-ABC Vehicle ServiceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +708,7 @@
 		};
 		BF6BECB925090EB500F81ADD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEB98EEC5C483C2E21920914 /* Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +729,7 @@
 		};
 		BF6BECBA25090EB500F81ADD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A91B3F0EF031B4DB50283B3 /* Pods-ABC Vehicle Service-ABC Vehicle ServiceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

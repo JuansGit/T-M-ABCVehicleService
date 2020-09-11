@@ -14,7 +14,6 @@ class ViewController: UIViewController, GIDSignInDelegate {
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
     }
     
-
     @IBOutlet weak var signOutButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
